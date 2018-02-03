@@ -15,6 +15,22 @@ p  { font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New 
 	 color: rebeccapurple; }
 -->
 	</style>
+	
+	<!-- Script for bio popup functionality -->
+	<script>
+	$(window).load(function () {
+    $(".start_popup").click(function(){
+       $('.hover_back').show();
+    });
+    $('.hover_back').click(function(){
+        $('.hover_back').hide();
+    });
+    $('.popup_close').click(function(){
+        $('.hover_back').hide();
+    });
+});
+	</script>
+	
 <title>Cthulu</title>
 </head>
 
@@ -43,7 +59,7 @@ p  { font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New 
     <span class="helper"></span>
     <div>
         <div class="popup_close">X</div>
-        <p>1<br />Cody's bio!</p>
+        <p>1<br />Age: 31<br /></p>
     </div>
 </div>
 
@@ -54,7 +70,9 @@ p  { font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New 
     <span class="helper"></span>
     <div>
         <div class="popup_close">X</div>
-        <p>1<br />Triston's bio!</p>
+        <p>1<br />Age: 21<br />
+				Skill Sets: Research, Coding<br />
+				Bio: A GIMM Student at BSU learning how to code and develop games. Avid lorefreak.</p>
     </div>
 </div>
 
