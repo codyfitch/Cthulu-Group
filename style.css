@@ -1,4 +1,58 @@
 /* Bio box CSS */
+/*h1 { font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+	 font-size: 40pt; 
+	 color: darkgreen; }
+p  { font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; 
+	 font-size: 14pt; 
+	 color: black; }
+		h2 { font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"; 
+	 font-size: 18pt; 
+	 color: rebeccapurple; }
+	 */
+body {
+	background-image: url("images/bg01.jpg");
+	background-color: #FFFFFF;
+}
+
+.header {
+	text-align: center;
+	margin-left: 10px;
+}
+.header_text {
+		font-family: 'Averia Serif Libre', cursive;
+		text-align: center;
+		font-size: 30px;
+	}
+	
+.header_image {
+	float: right;
+}
+
+/*Bios*/
+.bios {
+	font-family: 'Averia Serif Libre', cursive;
+		text-align: center;
+		font-size: 30px;
+}
+
+.bio_header {
+	font-family: 'Averia Serif Libre', cursive;
+		font-size: 50px;
+}
+.aminda_bio {
+	display: inline-block;
+}
+
+.cody_bio {
+	display: inline-block;
+}
+
+.triston_bio {
+	display: inline-block;
+}
+
+
+
 .hover_back{
     background:rgba(0,0,0,.4);
     cursor:pointer;
