@@ -41,14 +41,26 @@ body {
 }
 .aminda_bio {
 	display: inline-block;
+	font-size: 20px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #554C4A;
 }
 
 .cody_bio {
 	display: inline-block;
+	font-size:20px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #554C4A;
 }
 
 .triston_bio {
 	display: inline-block;
+	font-size:20px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #554C4A;
 }
 
 
