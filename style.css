@@ -14,30 +14,71 @@ body {
 	background-color: #FFFFFF;
 }
 
+.navbar {
+	font-family: 'Averia Serif Libre', cursive;
+	font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.navbar-nav {
+	margin-left: 50px;
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	padding-right: 50px;
+}
+
+.nav-link {
+	color: black; 
+}
+
+.nav-link:hover {
+	color: #776E6C;
+	text-decoration: none;
+}
+
+.nav-link:active {
+	color: black;
+	text-decoration: none;
+}
+
+li {
+	color: transparent;
+}
+
+.nav-item {
+	padding-left: 20px;
+}
+}
 .header {
 	text-align: center;
 	margin-left: 10px;
 }
 .header_text {
-		font-family: 'Averia Serif Libre', cursive;
-		text-align: center;
-		font-size: 30px;
+	font-family: 'Averia Serif Libre', cursive;
+	text-align: center;
+	font-size: 30px;
 	}
 	
 .header_image {
 	float: right;
+	margin-top: -200px;
+	padding-top: 0px;
 }
 
 /*Bios*/
 .bios {
 	font-family: 'Averia Serif Libre', cursive;
-		text-align: center;
-		font-size: 30px;
+	text-align: center;
+	font-size: 30px;
 }
 
 .bio_header {
+	padding-top: 70px;
+	padding-left: 150px;
 	font-family: 'Averia Serif Libre', cursive;
-		font-size: 50px;
+	font-size: 50px;
 }
 .aminda_bio {
 	display: inline-block;
@@ -53,6 +94,7 @@ body {
 	border-style: solid;
 	border-width: 3px;
 	border-color: #554C4A;
+	margin-bottom: 30px;
 }
 
 .triston_bio {
@@ -120,5 +162,17 @@ body {
     margin: 20px;
     display: inline-block;
     font-weight: bold;
+	color: black;
+	text-decoration: none;
 }
-/* Popup box BEGIN */
+
+.start_popup:hover {
+	color: gray;
+	text-decoration: none;
+	color: #776E6C;
+}
+
+.home_link{
+	color: gray;
+	text-decoration: none;
+}
